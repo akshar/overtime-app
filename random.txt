@@ -1,0 +1,37 @@
+
+
+rails new overtime --database=postgresql
+
+
+
+bundle exec rake db:create
+
+bundle exec rake db:migrate
+
+
+
+rails g rspec:install
+
+=======================
+
+https://rails.devcamp.com/professional-rails-development-course/application-build/rails-authentication
+
+
+
+rails generate devise:install
+
+rails generate devise:views
+
+
+
+======================
+
+
+
+rails c --sandbox => s mode 
+
+
+
+
+
+define column "type" of string to use single table inheritance.
