@@ -31,7 +31,7 @@ rails generate devise:views
 rails c --sandbox => s mode 
 
 
-
-
-
 define column "type" of string to use single table inheritance.
+
+
+running seed file : bundle exec rake db:setup (wipes db XD =/ PROD)
