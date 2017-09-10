@@ -13,7 +13,7 @@ bundle exec rake db:migrate
 rails g rspec:install
 
 =======================
-
+https://rails.devcamp.com
 https://rails.devcamp.com/professional-rails-development-course/application-build/rails-authentication
 
 
@@ -30,6 +30,7 @@ rails generate devise:views
 
 rails c --sandbox => s mode
 
+rails c -e test => run console in test env
 
 define column "type" of string to use single table inheritance.
 
