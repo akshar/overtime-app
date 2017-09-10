@@ -1,14 +1,8 @@
-
-
 rails new overtime --database=postgresql
-
-
 
 bundle exec rake db:create
 
 bundle exec rake db:migrate
-
-
 
 rails g rspec:install
 
@@ -16,13 +10,9 @@ rails g rspec:install
 https://rails.devcamp.com
 https://rails.devcamp.com/professional-rails-development-course/application-build/rails-authentication
 
-
-
 rails generate devise:install
 
 rails generate devise:views
-
-
 
 ======================
 
@@ -39,3 +29,7 @@ running seed file : bundle exec rake db:setup (wipes db XD =/ PROD)
 
 
 http://www.layoutit.com/build  => bootstrap
+============================================================================
+start psql service:
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+============================================================================
