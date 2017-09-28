@@ -157,6 +157,8 @@ GEM
       yard (~> 0.9)
     public_suffix (3.0.0)
     puma (3.10.0)
+    pundit (1.1.0)
+      activesupport (>= 3.0.0)
     rack (2.0.3)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -278,6 +280,7 @@ DEPENDENCIES
   pry
   pry-doc
   puma (~> 3.0)
+  pundit (~> 1.1)
   rails (~> 5.0.5)
   rake
   rspec-rails (~> 3.0)
