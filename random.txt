@@ -36,3 +36,8 @@ pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
 
 capybara cheatsheet:
 https://gist.github.com/zhengjia/428105
+
+
+
+
+rspec --format documentation => list of spec
