@@ -44,3 +44,4 @@ gem "administrate", git: "https://github.com/thoughtbot/administrate"
 gem 'bourbon'
 gem 'pundit', '~> 1.1'
 gem 'puma', '~> 3.10'
+gem 'twilio-ruby', '~> 5.3'
