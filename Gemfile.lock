@@ -279,7 +279,7 @@ DEPENDENCIES
   pg (~> 0.18)
   pry
   pry-doc
-  puma (~> 3.0)
+  puma (~> 3.10)
   pundit (~> 1.1)
   rails (~> 5.0.5)
   rake
