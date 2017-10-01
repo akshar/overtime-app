@@ -41,3 +41,7 @@ https://gist.github.com/zhengjia/428105
 
 
 rspec --format documentation => list of spec
+
+rake -T => list rake tasks
+
+rails g task notification sms => generate rake task sms for notification namespace

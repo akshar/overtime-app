@@ -8,6 +8,6 @@ Bundler.require(*Rails.groups)
 
 module Overtime
   class Application < Rails::Application
-    config.auto_load_paths << Rails.root.join("lib")
+    config.autoload_paths << Rails.root.join("lib")
   end
 end
