@@ -13,8 +13,8 @@
 	</li>
 
 	<% if policy(AuditLog).index? %>
-	    <li class="<%= active?(aduit_logs__path) %>">
-		<%= link_to "Aduit log", aduit_logs_path  %>
+	    <li class="<%= active?(audit_logs_path) %>">
+		<%= link_to "Aduit log", audit_logs_path  %>
 	    </li>
 	<% end %>
 
