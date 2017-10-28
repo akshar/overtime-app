@@ -5,6 +5,10 @@ class PostPolicy < ApplicationPolicy
 
   end
 
+  def approve?
+    admin?
+  end
+
   private
 
   def admin_or_user
